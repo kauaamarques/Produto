@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@800&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+@keyframes degrade {
+0%{
+    background-position-x: 0%;
+}
+100%{
+    background-position:400% ;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{   
+    width: 400px;
+    height: 270px;
+    margin-top: -1%;
+
+}
+main p{
+    margin-top: -21%;
+        padding-left: 30%;
+}
+h1{
+    text-align: center;
+    /* text-shadow: 6px 7px rgb(97, 100, 100); */
+    font-weight: 960px; 
+    -webkit-text-fill-color: rgb(41, 39, 39);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(45deg, #1dd3d3, #9e9393, #d1dfd1, #44e3d3);
+    background-size: 400px 100px;
+    animation: degrade 10s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 7%;
+    
+}
+h2{
+    text-align: center;
+    margin-bottom: 7%;
+    font-display: 50px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   -webkit-text-fill-color: rgb(0, 0, 0);
+}
+p{
+    text-align: center;
+    -webkit-text-fill-color: rgba(218, 218, 218, 0.932);
+    margin-bottom: 3%;
+    font-style: normal;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   ;
+}
+
+   
+
+footer p{
+    margin-top: 15%;
+    margin-left: -40%;
+}
+body{
+    background-image: url(background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(253,253,255,1) 0%, rgba(139,173,183,1) 17%, rgba(4,122,189,1) 36%, rgba(62,130,230,1) 54%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%););
+    background-repeat: no-repeat;
+}
